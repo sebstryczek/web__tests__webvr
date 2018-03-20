@@ -1,0 +1,19 @@
+.u--list-header {
+  margin-bottom: 0;
+}
+
+.u--list--circle li, .u--list--circle .li {
+  list-style: circle inside;
+}
+
+.u--list--disc li, .u--list--disc .li {
+   list-style: disc inside;
+}
+
+.u--list--dash li:before, .u--list--dash  li:before {
+  content: "- ";
+}
+
+.u--list--numeric li, .u--list--numeric .li {
+  list-style: decimal inside;
+}

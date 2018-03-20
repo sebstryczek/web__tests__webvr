@@ -1,0 +1,130 @@
+/*
+  button, .button - standard button: just text style and cursor (looks like link)
+  .button--basic - basic ui button
+  .button--in-text - basic ui button, but with fixed margins, it can be used in text block, and it doesnt change heights of lines
+  .button--block - basic ui button with margins
+  TODO: maybe change naming to button--ui- and button--color- ?
+*/
+
+.autostyle button,
+.button {
+  @apply --default-typo;
+  cursor: pointer;
+}
+
+.autostyle button:hover,
+.button:hover {
+  color: var(--action-color);
+}
+
+.button--base {
+  @apply --const-height;
+  display: inline-block;
+  padding: 0 16px 0 16px;
+  text-align: center;
+  transition: background-color var(--standard-transition), color var(--standard-transition);
+}
+
+.button--in-text {
+  margin-top: -4px;
+  margin-bottom: -3px;
+}
+
+.button--block {
+  @apply --default-margin;
+  display: block;
+}
+
+.button--square {
+  width: 32px;
+  padding: 0 0 0 0;
+}
+
+.button--stretch {
+  display: block;
+  width: 100%;
+}
+
+.button--default {
+  background-color: transparent;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+.button--default:hover {
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.button--default-inverse {
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  color: var(--secondary-color);
+}
+.button--default-inverse:hover {
+  background-color: transparent;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.button--action {
+  background-color: transparent;
+  border: 1px solid var(--action-color);
+  color: var(--action-color);
+}
+.button--action:hover {
+  background-color: var(--action-color);
+  border: 1px solid var(--action-color);
+  color: var(--secondary-color);
+}
+
+.button--action-inverse {
+  background-color: var(--action-color);
+  border: 1px solid var(--action-color);
+  color: var(--secondary-color);
+}
+.button--action-inverse:hover {
+  background-color: transparent;
+  border: 1px solid var(--action-color);
+  color: var(--action-color);
+}
+
+.button--success {
+  background-color: var(--success-color);
+  border: 0;
+  color: var(--secondary-color);
+}
+.button--success:hover {
+  background-color: var(--success-hover-color);
+  color: var(--secondary-color);
+}
+
+.button--info {
+  background-color: var(--info-color);
+  border: 0;
+  color: var(--secondary-color);
+}
+.button--info:hover {
+  background-color: var(--info-hover-color);
+  color: var(--secondary-color);
+}
+
+.button--warning {
+  background-color: var(--warning-color);
+  border: 0;
+  color: var(--secondary-color);
+}
+.button--warning:hover {
+  background-color: var(--warning-hover-color);
+  color: var(--secondary-color);
+}
+
+.button--danger {
+  background-color: var(--danger-color);
+  border: 0;
+  color: var(--secondary-color);
+}
+.button--danger:hover {
+  background-color: var(--danger-hover-color);
+  color: var(--secondary-color);
+}

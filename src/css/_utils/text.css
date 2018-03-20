@@ -1,0 +1,23 @@
+.u--text-left {
+  text-align: left!important;
+}
+
+.u--text-right {
+  text-align: right!important;
+}
+
+.u--text-center {
+  text-align: center!important;
+}
+
+.u--text-bold {
+  font-weight: 600!important;
+}
+
+.u--text-italic {
+  font-style: italic!important;
+}
+
+.u--text-faded {
+  opacity: 0.25!important;
+}

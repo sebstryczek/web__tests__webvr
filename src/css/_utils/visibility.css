@@ -1,0 +1,7 @@
+.u--hidden {
+  visibility: hidden;
+}
+
+.u--removed {
+  display: none;
+}

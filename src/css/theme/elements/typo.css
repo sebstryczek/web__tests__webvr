@@ -1,0 +1,102 @@
+body.autostyle {
+  @apply --default-typo;
+}
+
+.autostyle br,
+.br {
+  @apply --default-typo;
+}
+
+.autostyle hr,
+.hr {
+  height: 1px;
+  margin: 8px 0 24px 0;
+  background-color: var(--primary-color);
+  background-color: var(--action-color);
+}
+
+.autostyle strong,
+.strong {
+  font-weight: 600;
+}
+
+.autostyle a,
+.a {
+  @apply --default-typo;
+  color: var(--action-color);
+}
+.autostyle a:hover,
+.a:hover {
+  color: var(--action-hover-color);
+}
+
+.autostyle h1,
+.h1 {
+  @apply --default-typo;
+  @apply --default-margin;
+  font-size: 32px;
+  line-height: 64px;
+}
+
+.autostyle h2,
+.h2 {
+  @apply --default-typo;
+  @apply --default-margin;
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.autostyle h3,
+.h3 {
+  @apply --default-typo;
+  @apply --default-margin;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.autostyle h4,
+.h4 {
+  @apply --default-typo;
+  @apply --default-margin;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.autostyle h5,
+.h5 {
+  @apply --default-typo;
+  @apply --default-margin;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.autostyle h6,
+.h6 {
+  @apply --default-typo;
+  @apply --default-margin;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.autostyle p,
+.p {
+  @apply --default-typo;
+  @apply --default-margin;
+}
+
+.autostyle ul,
+.ul {
+  @apply --default-typo;
+  @apply --default-margin;
+}
+
+.autostyle li,
+.li {
+  @apply --default-typo;
+}
+
+.autostyle label,
+.label {
+  @apply --default-typo;
+  @apply --default-margin;
+}

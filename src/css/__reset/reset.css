@@ -1,0 +1,65 @@
+:root {
+  --reset: {
+    /* reset block */
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    -webkit-border-horizontal-spacing: 0;
+    -webkit-border-vertical-spacing: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    
+    /* reset typography */
+    color: #000000;
+    line-height: auto;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: normal;
+    font-weight: 400;
+    
+    letter-spacing: 0;
+    word-spacing: 0;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0;
+    vertical-align: baseline;
+    quotes: none;
+    list-style-type: none;
+    list-style-position: inside;
+  }
+}
+
+html, body,
+h1, h2, h3, h4, h5, h6,
+p, span, sub, sup,
+strong, i, b,
+a,
+button,
+blockquote, q,
+pre,
+dl, dt, dd,
+ul, ol, li,
+form, fieldset, input, label, textarea,
+table, tbody, tr, th, td,
+img,
+hr {
+  @apply --reset;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100%;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit
+}

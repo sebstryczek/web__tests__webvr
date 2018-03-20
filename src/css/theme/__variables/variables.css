@@ -1,0 +1,24 @@
+:root {
+  --primary-color: #111111;
+  --primary-fade-color: #555555;
+  
+  --secondary-color: #fefefe;
+  --secondary-fade-color: #cccccc;
+
+  --action-color: #000000;
+  --action-hover-color: #000000;
+
+  --success-color: #6aca6a;
+  --success-hover-color: #379737;
+
+  --info-color: #6acfed;
+  --info-hover-color: #379cba;
+
+  --warning-color: #f6b558;
+  --warning-hover-color: #c38225;
+
+  --danger-color: #e5615d;
+  --danger-hover-color: #b22e2A;
+  
+  --standard-transition: 0.2s linear;
+}

@@ -1,0 +1,62 @@
+/* RESET ALL html tags to plan text */
+@import './__reset/reset.css';
+/* *** */
+
+/* REUSABLE LAYOUTS */
+@import './_layouts/sticky-footer.css';
+/* *** */
+
+/* UTILS */
+@import './_utils/block.css';
+@import './_utils/clearfix.css';
+@import './_utils/flexbox.css';
+@import './_utils/grid.css';
+@import './_utils/icon.css';
+@import './_utils/image.css';
+@import './_utils/list.css';
+@import './_utils/size.css';
+@import './_utils/space.css';
+@import './_utils/text.css';
+@import './_utils/visibility.css';
+/* *** */
+
+/* STYLES PER THEME */
+@import './theme/__variables/breakpoints.css';
+@import './theme/__variables/variables.css';
+
+@import './theme/_mixins/_mixins.css';
+
+@import './theme/elements/button.css';
+@import './theme/elements/form.css';
+@import './theme/elements/typo.css';
+
+@import './theme/modules/_site.css';
+/* *** */
+
+html {
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+canvas {
+  margin: 0;
+  vertical-align: top; /* HACK: hide crollbars (?!) */
+}
+
+.app {
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.cursor-pointer {
+  cursor: url(../img/cursor-pointer.png), pointer;
+}
+.cursor-grab {
+  cursor: url(../img/cursor-grab.png), pointer;
+}
